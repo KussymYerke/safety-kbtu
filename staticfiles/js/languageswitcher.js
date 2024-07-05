@@ -2,7 +2,7 @@ let lang = [
   {
     key: 'ru',
     values: {
-      "flag": "/static/modal-img/russia-flag.png",
+      "flag": "/staticfiles/modal-img/russia-flag.png",
       "theme": "Основы пожарной безопасности",
       "descriptiontheme" : "Описание",
       "description": "Основы пожарной безопасности это самая важная и нужна вещь...",
@@ -25,7 +25,7 @@ let lang = [
       "theme": "Өрт қауіпсіздігі негіздері",
       "descriptiontheme" : "Сипаттама",
       "description": "Өрт қауіпсіздігінің негіздері ең маңызды және қажетті зат...",
-      "flag": "/static/modal-img/kaz-flag.png",
+      "flag": "/staticfiles/modal-img/kaz-flag.png",
       // "share": "Бөлісу арқылы :"
     },
   },
