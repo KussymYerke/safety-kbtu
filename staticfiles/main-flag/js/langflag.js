@@ -2,7 +2,7 @@
 
 let flags = ['en', 'kz', 'ru'];
 let currentIndex = 0;
-let staticUrl = "static/main-flag/flags-gif/";  // Replace with your actual static URL
+let staticUrl = "staticfiles/main-flag/flags-gif/";  // Replace with your actual static URL
 
 function switchFlag(direction) {
     currentIndex += direction;
