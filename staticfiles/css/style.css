@@ -317,46 +317,492 @@ p {
     height: auto;
 }
 
+.tolebi_five, .tolebi_four, .tolebi_three, .tolebi_two, .tolebi_one, .tolebi_zero{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.panfilova_four, .panfilova_three, .panfilova_two, .panfilova_one, .panfilova_zero{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.ab_four, .ab_three, .ab_two, .ab_one, .ab_zero{
+    height: 30px !important;
+    width: 30px !important;
+}
+
 @media only screen and (max-width: 374px) {
     .panfilova_zero{    
         position: absolute;
-        left: 80px;
+        left: 70px;
         padding: 5px;
-        margin-top: 25px;
+        margin-top: 30px;
     }
     .tolebi_zero{
         position: absolute;
-        left: 80px;
+        left: 70px;
         margin-top: 90px;
         padding: 5px;
     }
     .ab_zero{
         position: absolute;
-        left: 200px;
-        margin-top: 90px;
+        left: 185px;
+        margin-top: 85px;
         padding: 5px;
     }
+
     .tolebi_one{
         position: absolute;
         left: 70px;
-        margin-top: 150px;
+        margin-top: 100px;
     }
     .panfilova_one{
         position: absolute;
         left: 170px;
-        margin-top: 120px;
+        margin-top: 100px;
     }
     .ab_one{
         position: absolute;
         left: 69px;
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .kb_one{
         position: absolute;
         left: 130px;
         margin-top: 60px;
     }
+
+    .tolebi_two{
+        position: absolute;
+        left: 70px;
+        margin-top: 100px;
+        padding: 5px;
+    }
+    .panfilova_two{
+        position: absolute;
+        left: 160px;
+        margin-top: 100px;
+        padding: 5px;
+    }
+    .ab_two{
+        position: absolute;
+        left: 70px;
+        margin-top: 30px;
+        padding: 5px;
+    }
+    .kb_two{
+        position: absolute;
+        margin-top: 57px;
+        left: 120px;
+        padding: 5px;
+    }
+    
+    .ab_three{
+        position: absolute;
+        left: 70px;
+        margin-top: 46px;
+        padding: 5px;
+    }
+    .tolebi_three{
+        position: absolute;
+        left: 70px;
+        margin-top: 100px;
+        padding: 5px;
+    }
+    .panfilova_three{
+        position: absolute;
+        left: 170px;
+        margin-top: 92px;
+        padding: 5px;
+    }
+    /*  */
+    .ab_four{
+        position: absolute;
+        left: 120px;
+        margin-top: 35px;
+        padding: 10px;
+    }
+    .kb_four{
+        position: absolute;
+        left: 130px;
+        margin-top: 70px;
+        padding: 8px;
+    }
+    .panfilova_four{
+        position: absolute;
+        left: 160px;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .tolebi_four{
+        position: absolute;
+        left: 70px;
+        margin-top: 100px;
+        padding: 5px;
+    }
+    .tolebi_five{
+        position: absolute;
+        left: 110px;
+        top: 180px;
+        padding: 30px;
+    }
 }
+@media only screen and (min-width: 374px) and (max-width: 400px) {
+    .panfilova_zero{    
+        position: absolute;
+        left: 70px;
+        padding: 5px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .tolebi_zero{
+        position: absolute;
+        left: 90px;
+        margin-top: 110px;
+        padding: 10px;
+    }
+    .ab_zero{
+        position: absolute;
+        left: 225px;
+        margin-top: 95px;
+        padding: 10px;
+    }
+
+    .tolebi_one{
+        position: absolute;
+        left: 80px;
+        margin-top: 110px;
+        padding: 10px;
+    }
+    .panfilova_one{
+        position: absolute;
+        left: 200px;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .ab_one{
+        position: absolute;
+        left: 90px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .kb_one{
+        position: absolute;
+        left: 150px;
+        margin-top: 75px;
+        padding: 10px;
+    }
+
+    .tolebi_two{
+        position: absolute;
+        left: 80px;
+        margin-top: 120px;
+        padding: 9px;
+    }
+    .panfilova_two{
+        position: absolute;
+        left: 200px;
+        margin-top: 120px;
+        padding: 9px;
+    }
+    .ab_two{
+        position: absolute;
+        left: 100px;
+        margin-top: 45px;
+        padding: 9px;
+    }
+    .kb_two{
+        position: absolute;
+        margin-top: 80px;
+        left: 140px;
+        padding: 9px;
+    }
+    
+    .ab_three{
+        position: absolute;
+        left: 70px;
+        margin-top: 46px;
+        padding: 9px;
+    }
+    .tolebi_three{
+        position: absolute;
+        left: 80px;
+        margin-top: 110px;
+        padding: 9px;
+    }
+    .panfilova_three{
+        position: absolute;
+        left: 190px;
+        margin-top: 98px;
+        padding: 9px;
+    }
+
+    .ab_four{
+        position: absolute;
+        left: 110px;
+        margin-top: 38px;
+        padding: 10px;
+    }
+    .kb_four{
+        position: absolute;
+        left: 150px;
+        margin-top: 85px;
+        padding: 9px;
+    }
+    .panfilova_four{
+        position: absolute;
+        left: 190px;
+        margin-top: 140px;
+        padding: 8px;
+    }
+    .tolebi_four{
+        position: absolute;
+        left: 80px;
+        margin-top: 100px;
+        padding: 20px;
+    }
+    .tolebi_five{
+        position: absolute;
+        left: 140px;
+        top: 190px;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 424px) {
+    .panfilova_zero{    
+        position: absolute;
+        left: 90px;
+        padding: 5px;
+        margin-top: 40px;
+    }
+    .tolebi_zero{
+        position: absolute;
+        left: 90px;
+        margin-top: 117px;
+        padding: 5px;
+    }
+    .ab_zero{
+        position: absolute;
+        left: 245px;
+        margin-top: 115px;
+        padding: 5px;
+    }
+
+    .tolebi_one{
+        position: absolute;
+        left: 90px;
+        margin-top: 130px;
+    }
+    .panfilova_one{
+        position: absolute;
+        left: 230px;
+        margin-top: 120px;
+    }
+    .ab_one{
+        position: absolute;
+        left: 100px;
+        margin-top: 50px;
+    }
+    .kb_one{
+        position: absolute;
+        left: 160px;
+        margin-top: 80px;
+    }
+
+    .tolebi_two{
+        position: absolute;
+        left: 90px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .panfilova_two{
+        position: absolute;
+        left: 220px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .ab_two{
+        position: absolute;
+        left: 100px;
+        margin-top: 40px;
+        padding: 5px;
+    }
+    .kb_two{
+        position: absolute;
+        margin-top: 77px;
+        left: 150px;
+        padding: 5px;
+    }
+    
+    .ab_three{
+        position: absolute;
+        left: 90px;
+        margin-top: 46px;
+        padding: 5px;
+    }
+    .tolebi_three{
+        position: absolute;
+        left: 90px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .panfilova_three{
+        position: absolute;
+        left: 220px;
+        margin-top: 118px;
+        padding: 5px;
+    }
+
+    .ab_four{
+        position: absolute;
+        left: 120px;
+        margin-top: 35px;
+        padding: 5px;
+    }
+    .kb_four{
+        position: absolute;
+        left: 160px;
+        margin-top: 80px;
+        padding: 5px;
+    }
+    .panfilova_four{
+        position: absolute;
+        left: 200px;
+        margin-top: 130px;
+        padding: 5px;
+    }
+    .tolebi_four{
+        position: absolute;
+        left: 90px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .tolebi_five{
+        position: absolute;
+        left: 140px;
+        top: 210px;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 425px) {
+    .panfilova_zero{    
+        position: absolute;
+        left: 90px;
+        padding: 5px;
+        margin-top: 40px;
+    }
+    .tolebi_zero{
+        position: absolute;
+        left: 90px;
+        margin-top: 117px;
+        padding: 5px;
+    }
+    .ab_zero{
+        position: absolute;
+        left: 245px;
+        margin-top: 115px;
+        padding: 5px;
+    }
+
+    .tolebi_one{
+        position: absolute;
+        left: 90px;
+        margin-top: 130px;
+    }
+    .panfilova_one{
+        position: absolute;
+        left: 230px;
+        margin-top: 120px;
+    }
+    .ab_one{
+        position: absolute;
+        left: 100px;
+        margin-top: 50px;
+    }
+    .kb_one{
+        position: absolute;
+        left: 160px;
+        margin-top: 80px;
+    }
+
+    .tolebi_two{
+        position: absolute;
+        left: 90px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .panfilova_two{
+        position: absolute;
+        left: 220px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .ab_two{
+        position: absolute;
+        left: 100px;
+        margin-top: 40px;
+        padding: 5px;
+    }
+    .kb_two{
+        position: absolute;
+        margin-top: 77px;
+        left: 150px;
+        padding: 5px;
+    }
+    
+    .ab_three{
+        position: absolute;
+        left: 90px;
+        margin-top: 46px;
+        padding: 5px;
+    }
+    .tolebi_three{
+        position: absolute;
+        left: 90px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .panfilova_three{
+        position: absolute;
+        left: 220px;
+        margin-top: 118px;
+        padding: 5px;
+    }
+
+    .ab_four{
+        position: absolute;
+        left: 120px;
+        margin-top: 35px;
+        padding: 5px;
+    }
+    .kb_four{
+        position: absolute;
+        left: 160px;
+        margin-top: 80px;
+        padding: 5px;
+    }
+    .panfilova_four{
+        position: absolute;
+        left: 200px;
+        margin-top: 130px;
+        padding: 5px;
+    }
+    .tolebi_four{
+        position: absolute;
+        left: 90px;
+        margin-top: 120px;
+        padding: 5px;
+    }
+    .tolebi_five{
+        position: absolute;
+        left: 140px;
+        top: 210px;
+        padding: 5px;
+    }
+    
+}
+
 @media only screen and (min-width: 374px) and (max-width: 424px) {
         
 }
