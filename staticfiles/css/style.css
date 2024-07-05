@@ -861,9 +861,7 @@ p {
     margin-bottom: 30px;
 }
 .floor-image-container .imgfive{
-    position: relative;
-    max-width: 40%;
-    left: -10%;
+    max-width: 75%;
 }
 
 /* floor - details start */

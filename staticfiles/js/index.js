@@ -1,24 +1,22 @@
+
 var modal = document.getElementById("myModal");
 var btns = document.querySelectorAll(".modalBtn");
 var span = document.getElementsByClassName("close")[0];
 var body = document.body;
+var navbar = document.getElementById("navbar")
 
-btns.forEach(btn => {
-    btn.onclick = function() {
-        fetchPageAndDisplayInModal("/video/"); // replace with your URL
-        modal.style.display = "block";
-    }
-});
+
 
 span.onclick = function() {
     modal.style.display = "none";
+    body.style.overflow = "auto";
+    navbar.style.display = "flex"
 }
 
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-    body.style.overflow = "auto";
 }
 
 function fetchPageAndDisplayInModal(pageUrl) {
@@ -52,6 +50,8 @@ btns.forEach(btn => {
             activeBtn.classList.remove("active");
         }
         btn.classList.add("active");
+        body.style.overflow = "hidden";
+        navbar.style.display = "none"
 
         fetchPageAndDisplayInModal("/video/");
         modal.style.display = "block";
