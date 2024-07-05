@@ -21,7 +21,7 @@
 
 <body>
 	<div class="navbar" id="navbar"> 
-		<img src="{% static 'modal-img/logot.png' %}" alt="" class="logo" >
+		<a href="{% url 'mainn' %}"><img src="{% static 'modal-img/logot.png' %}" alt="" class="logo" ></a>
 		<!-- <div class="selected-language"> -->
 		<!-- <img id="selected-flag" class="russia flag" src="img/modal-img/russia-flag.png" alt="">
 			<div class="pseudo">
@@ -33,7 +33,7 @@
 				Language options will be dynamically added here by JavaScript
 			</div>   -->
 		<!-- The overlay -->
-		<div class="overlay" id="myNav">
+		<div class="overlay" id="myNav" style="width: 0%">
 			<!-- Button to close the overlay navigation --><a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
 			<!-- Overlay content -->
 			<div class="overlay-content">
@@ -517,8 +517,8 @@
 					</div>
 					<div class="zerothfloor">
 						<div class="tolebi_zero modalBtn" data-url="{% static 'img-videosingle/tolebi/TOLEBI0THVR1_ 3.png' %}"></div>
-						<div class="panfilova_zero modalBtn" data-url="{% static 'img-videosingle/panfilova/PANFILOV0THVR1.png' %}"></div>
-						<div class="ab_zero modalBtn" data-url="{% static 'img-videosingle/abylk/ABYLAIKHAN0THVR1_.png' %}"></div>
+						<div class="panfilova_zero modalBtn" data-url="{% static 'img-videosingle/abylk/ABYLAIKHAN0THVR1_.png' %}"></div>
+						<div class="ab_zero modalBtn" data-url="{% static 'img-videosingle/panfilova/PANFILOV0THVR1.png' %}"></div>
 						<img alt="" class="" src="{% static 'img/floors/zero.png' %}" />
 					</div>
 			</div>

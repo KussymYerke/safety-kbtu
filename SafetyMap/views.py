@@ -25,5 +25,9 @@ def video_kz(request):
 def video_single(request):
     return render(request, 'video-single.html')
 
+
 def video_en(request):
     return render(request, 'video-single_en.html')
+
+def video_ru(request):
+    return render(request, 'video-single_ru.html')

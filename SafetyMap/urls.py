@@ -27,9 +27,10 @@ urlpatterns = [
     path('kz_page/', views.kz, name='kz_page'),
 
     path('map/', views.index, name='mapi'),
+    path('video/', views.video_single, name='video'),
 
     path('video_kz/', views.video_kz, name='video_kz'),
-    path('video_ru/', views.video_single, name='video_ru'),
+    path('video_ru/', views.video_ru, name='video_ru'),
     path('video_en/', views.video_en, name='video_en'),
 
 ]
