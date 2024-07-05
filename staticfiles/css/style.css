@@ -332,6 +332,11 @@ p {
     width: 30px !important;
 }
 
+.kb_four, .kb_two, .kb_one{
+    height: 30px !important;
+    width: 30px !important;
+}
+
 @media only screen and (max-width: 374px) {
     .panfilova_zero{    
         position: absolute;
