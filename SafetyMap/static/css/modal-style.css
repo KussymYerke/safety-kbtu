@@ -1,0 +1,273 @@
+.selected-language {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+    right: 15%;
+    top: 25%;
+}
+
+#lang-dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+.flag {
+    height: 25px;
+    width: 35px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.language-options{
+    list-style: none;
+}
+.selected-language:hover .lang-switcher {display: block;}
+
+
+
+/*===================
+	videos single
+===================*/
+.video-single {
+	position: relative;
+}
+
+.video-single .entry {
+	margin-bottom: 30px;
+}
+
+.video-single .entry img {
+	width: 100%;
+	height: 100%;
+}
+
+.video-single .entry .user-date ul {
+	list-style: none;
+}
+
+.video-single .entry .user-date ul li {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.video-single .entry .user-date ul li a i {
+	margin-right: 6px;
+	color: #f14330;
+}
+
+.video-single .share ul {
+	list-style: none;
+	margin-top: 15px;
+}
+
+.video-single .share ul li {
+	display: inline-block;
+}
+
+.video-single .share ul li h6 {
+	margin-right: 4px;
+	position: relative;
+	bottom: 2px;
+}
+
+.video-single .share ul li a i {
+	font-size: 20px;
+	margin: 0 4px;
+}
+
+.video-single .author {
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	position: relative;
+}
+
+.video-single .author .entry {
+	overflow: hidden;
+}
+
+.video-single .author p {
+	margin: 8px 0;
+}
+
+.video-single .author img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+}
+
+.video-single .author .entry ul {
+	padding: 0;
+	margin: 0;
+}
+
+.video-single .author .entry ul li {
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.video-single .comment .content .entry {
+	overflow: hidden;
+	margin-bottom: 22px;
+}
+
+.video-single .comment .content p {
+	margin: 8px 0;
+}
+
+.video-single .comment .content img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 15px;
+}
+
+.video-single .comment .content {
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+	.video-single .comment .content {
+		border-top: 1px solid #eee;
+		padding-top: 20px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.video-single .post-comment .content {
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+
+.video-single .post-comment .content textarea {
+	margin-bottom: 20px;
+}
+
+
+.video-iframe {
+	position:relative;
+	padding-top: 1px;
+	padding-bottom: 56.25%;
+	height:0;
+	overflow:hidden;
+}
+
+.video-iframe img,
+.video-iframe object,
+.video-iframe embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-single .entry h5 {
+	margin: 15px 0 15px 0;
+	font-size: 20px;
+}
+
+.video-single .entry .thumb {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+}
+
+.video-single .entry .thumb img {
+	border-radius: 50%;
+}
+
+.video-single .entry .desc {
+	overflow: hidden;
+}
+
+.video-single .entry .desc h6 {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.video-single .entry .desc span {
+	font-size: 13px;
+	display: block;
+	margin-top: 5px;
+}
+
+.video-single .description {
+	display: block;
+	clear: both;
+	margin-top: 28px;
+	padding-top: 15px;
+	border-top: 1px solid #ddd;
+}
+
+
+
+
+/*===================
+	section, title and bg
+===================*/
+.app-section {
+	padding: 25px 0 25px 0;
+}
+
+.app-pages {
+	margin-top: 60px;
+}
+
+.app-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.app-title h4 {
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'Droid Serif', serif;
+}
+
+.app-title .line {
+	width: 45px;
+	height: 4px;
+	background: #f14330;
+	margin: 5px auto 0;
+	border-radius: 5px 0;
+}
+
+.pages-title {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.pages-title h3 {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.app-bg-dark {
+	background: #f3f3f3;
+}
+
+.app-bg-light {
+	background: #fff;
+}
+
+.app-bg-light .entry {
+	background: #f3f3f3;
+}
+
+.app-last-row {
+	margin-bottom: 0;
+}

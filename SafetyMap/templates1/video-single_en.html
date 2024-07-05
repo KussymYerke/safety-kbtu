@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rules of conduct in case of a fire in the KBTU</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1  maximum-scale=1 user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	
+	<link href="{% static 'videos/img/favicon.png' %}" rel="shortcut icon" />
+	
+	<link rel="stylesheet" href="{% static 'videos/css/style.css' %}">		
+	<link rel="stylesheet" href="{% static 'videos/css/slick.css' %}">		
+	<link rel="stylesheet" href="{% static 'videos/css/materialize.min.css' %}">		
+	<link rel="stylesheet" href="{% static 'videos/css/font-awesome.min.css' %}">			
+</head>
+<body>
+
+	<div class="navbar">
+		<div class="container">
+			<div class="site-title">
+				<a href="{% url 'mainn' %}"><img src="{% static 'videos/img/logot.png' %}" alt="Logo" style="width: 120px; height: 50;"></a>
+			</div>
+			<div class="language-selection">
+				<div class="selected-language">
+					<img id="selected-language-flag" src="{% static 'videos/img/en-flag.png' %}" alt="">
+					<i class="fa fa-angle-down"></i>
+				</div>
+				<ul class="language-list">
+					<li class="language-item"><a href="{% url 'video_ru' %}"><img src="{% static 'videos/img/russia-flag.png' %}" alt=""> RU</a></li>
+					<li class="language-item"><a href="{% url 'video_kz' %}"><img src="{% static 'videos/img/kaz-flag.png' %}" alt=""> KZ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="video-single app-pages">
+		<div class="video-iframe">
+			<iframe src="https://www.youtube.com/embed/K8PB8JIYffw" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="container">
+			<div class="entry">
+				<h5>Rules of conduct in case of a fire in the KBTU</h5>
+				<div class="description">
+					<h6>Description</h6>
+				</div>
+				<p>In this video, we will tell you in detail about the rules of conduct in case of a fire in the KBTU building. Learn how to act in case of fire, where to go during rescue and how to evacuate safely. The necessary information presented in this video will help you keep calm and make the right decisions in case of an emergency. Be ready for a fire - watch our video!</p>
+				<!-- <div class="share">
+					<ul>
+						<li><h6>Share via :</h6></li>
+						<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+						<li><a href=""><i class="fa fa-google-plus-square"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	
+
+	<footer>
+		<div class="container">
+			<h6>Find & follow us</h6>
+			<ul class="icon-social">
+				<li class="facebook"><a href="https://www.linkedin.com/company/almavalley"><i class="fa fa-linkedin"></i></a></li>
+				<li class="twitter"><a href="https://wa.me/77076673710"><i class="fa fa-whatsapp"></i></a></li>
+				<li class="google"><a href="almavalleyhub@gmail.com"><i class="fa fa-google"></i></a></li>
+				<li class="instagram"><a href="https://instagram.com/almavalley.kz?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"></i></a></li>
+			</ul>
+			<div class="tel-fax-mail">
+				<ul>
+					<li><span>Tel:</span> 900000002</li>
+					<li><span>Email:</span> almavalleyhub@gmail.com</li>
+				</ul>
+			</div>
+			<div class="ft-bottom">
+				<span>Copyright © 2023 All Rights Reserved by Almavalley </span>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="{% static 'videos/js/jquery.min.js' %}"></script>
+	<script src="{% static 'videos/js/materialize.min.js' %}"></script>
+	<script src="{% static 'videos/js/slick.min.js' %}"></script>
+	<script src="{% static 'videos/js/custom.js' %}"></script>
+	
+</body>
+</html>
